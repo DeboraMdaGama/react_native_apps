@@ -50,4 +50,8 @@ Use git commands
 
 <img src="https://github.com/deboraMdaGama.png" width="85px" height="85px" alt=""></img> 
 
-<a href="https://www.linkedin.com/in/debora-gama/" target="blank"><img align="center" src="https://www.flaticon.com/svg/vstatic/svg/174/174857.svg?token=exp=1614468549~hmac=f403ff89bc68d2a9b2ae3c11a7b7bd5c" alt="Linkedin" width="25" /> Débora Gama.</a>
+<a href="https://www.linkedin.com/in/debora-gama/" target="blank">
+  <img src="https://cdn.icon-icons.com/icons2/99/PNG/512/linkedin_socialnetwork_17441.png" height=25width=25>
+  Débora Gama.
+
+</a>
