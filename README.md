@@ -43,7 +43,7 @@ Use git commands
 ```
 - Fork the project;
 - Create a new branch: `git checkout -b my-feature`;
-- Commit your branch: `git commit -m 'feat: My new feature'`;
+- Commit your chanches: `git commit -m 'feat: My new feature'`;
 - Push your branch: `git push origin my-feature`.
 
 <h2 id="author"> Author </h2> 
