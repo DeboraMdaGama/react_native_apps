@@ -23,6 +23,9 @@ export default function Home() {
     function handleNavigationRegistration() {
         navigation.navigate("Registration");
     }
+    function handleNavigationAnimation() {
+        navigation.navigate("Animation");
+    }
     return (
         <View style={styles.container}>
             <ImageBackground
@@ -61,6 +64,12 @@ export default function Home() {
                 onPress={handleNavigationRegistration}
             >
                 <Text style={styles.buttonText}> Registration
+                </Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.buttonContent}
+                onPress={handleNavigationAnimation}
+            >
+                <Text style={styles.buttonText}> Animation
                 </Text>
             </TouchableOpacity>
             </ImageBackground>

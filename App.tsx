@@ -8,6 +8,7 @@ import Registration from './src/pages/Registration';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import FortuneCookie from './src/pages/FortuneCookie';
+import Animation from './src/pages/Animation';
 
 declare global {
   namespace ReactNavigation {
@@ -18,6 +19,7 @@ declare global {
       FortuneCookie: undefined;
       Practicing: undefined;
       Registration: undefined;
+      Animation:undefined;
     }
   }
 }
@@ -45,6 +47,9 @@ const App = () => {
           options={{ headerShown: false }} 
         />
         <Stack.Screen name="Registration" component={Registration}
+          options={{ headerShown: false }} 
+        />
+        <Stack.Screen name="Animation" component={Animation}
           options={{ headerShown: false }} 
         />
       </Stack.Navigator>
